@@ -1,0 +1,32 @@
+<form id="sell-form" method="post" action="index.php?pageID=process_auction" enctype="multipart/form-data"  role="form" style="display: block;">
+    								<div class="form-group">
+										<input type="text" name="title" id="title" tabindex="1" class="form-control" placeholder="Auction title" value="" required>
+									</div>
+                                                                
+                                                                <div class="form-group">
+										<input type="text" name="description" id="description" tabindex="1" class="form-control" placeholder="Description" value="" required>
+									</div>
+                                                              
+                                                                  <div class="form-group">
+										<input type="number" min="0.01" step="any" name="startingprice" id="startingprice" tabindex="1" class="form-control"  placeholder="Starting Price €" value="" required>
+									</div>
+    
+                                                                      <div class="form-group">
+										<label for="foo">Auction duration:</label> <input id="duration" name="duration" type="time"  min="00:01:00" max="04:00:00" required>
+									 <span class="hours">Enter in hh/mm MIN 1m MAX 4h</span>
+                                                                      </div>
+									
+								   <div class="form-group">
+                                                                       <h3>Insert image </h3>
+										<input  type="file" name ="upload[]" multiple id="file"  class="form-control"  required>
+									</div>
+										
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="submit" id="submit" tabindex="4" class="form-control btn btn-login" value="submit">
+											</div>
+										</div>
+									</div>
+                                                                     
+								</form>
