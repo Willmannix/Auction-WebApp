@@ -18,9 +18,9 @@ User can place bid, live bid update, gallery
 
 Watchlist on personalized user home page
 
-<img src="/images/Auctionsite5.PNG" alt=""/>
+<img src="/images/Auctionsite7.PNG" alt=""/>
 
 History page of successful bids for each user
 
-<img src="/images/Auctionsite5.PNG" alt=""/>
+<img src="/images/Auctionsite6.PNG" alt=""/>
 
